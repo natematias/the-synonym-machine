@@ -5,10 +5,12 @@ the-synonym-machine
 
 -- Moby Dick, by Herman Melville and the Synonym machine
 
-**The Synonym Machine** downloads famous works of literature and replaces specified parts of speech with random synonyms. The script is currently configured to do this with Moby Dick, in reaction to [Robin Sloan's fascinating question](https://medium.com/message/14d61617f1d5): **if you replaced every adjective with a close synonym, would it be fair to call this new text by the same title?**
+**The Synonym Machine** downloads famous works of literature and replaces specified parts of speech with random synonyms. The script is currently configured to do this with Moby Dick, in reaction to [Robin Sloan's fascinating question](https://medium.com/message/14d61617f1d5): *if you replaced every adjective with a close synonym, would it be fair to call this new text by the same title?*
+
+Here is an example of what the Synonym Machine changed in one section of Moby Dick
 
 ***
-> ![Replaced adjectives in Moby Dick](http://i.imgur.com/g1ITZpT.png =550x)
+> ![Replaced adjectives in Moby Dick](http://i.imgur.com/JnJh8Zm.png =550x)
 ***
 
 # Running the Synonym Machine
