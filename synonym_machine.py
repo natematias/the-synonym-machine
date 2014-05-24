@@ -19,8 +19,6 @@ def replace_adjectives_strip_pos(token):
   else:
     return token[0]
 
-en_nl = get_nl('en')
-
 # download Moby Dick by Herman Melville from Project Gutenberg
 url = "http://www.gutenberg.org/cache/epub/2701/pg2701.txt"
 raw_text = urlopen(url).read()
@@ -28,19 +26,24 @@ raw_text = urlopen(url).read()
 print "downloaded text..."
 sys.stdout.flush()
 
+# tokenize the story
 tokens = nltk.word_tokenize(raw_text)
+# apply part of speech tags to the tokens
 pos_tokens = nltk.pos_tag(tokens)
-
 print "labeled tokens..."
 sys.stdout.flush()
 
+#replace all adjectives with a synonym
 adj_replaced_tokens = [replace_adjectives_strip_pos(x) for x in pos_tokens]
 print "replaced adjectives..."
 sys.stdout.flush()
+
+#untokenize the text to create a single string. Clean up some of the dashes, which confuse reporting script
+en_nl = get_nl('en')
 replaced_text = en_nl.untokenize(" ".join(adj_replaced_tokens))#.replace(".",".\n")
 replaced_text = replaced_text.replace("- -","--").replace(" --","--").replace("-- ","--")
 
-
+# write modified literature to file
 f = open(sys.argv[1], 'w')
 f.write(replaced_text)
 f.close()
