@@ -9,7 +9,7 @@ The Synonym Machine
 
 Here is an example of what the Synonym Machine changed in one section of Moby Dick
 
-> ![Replaced adjectives in Moby Dick](http://i.imgur.com/JnJh8Zm.png =550x)
+ ![Replaced adjectives in Moby Dick](http://i.imgur.com/JnJh8Zm.png =550x)
 
 # Running the Synonym Machine
 Part of speech tagging can take a while, so don't expect output immediately. On my laptop it takes a few minutes.
