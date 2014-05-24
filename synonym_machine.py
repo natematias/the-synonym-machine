@@ -38,6 +38,8 @@ adj_replaced_tokens = [replace_adjectives_strip_pos(x) for x in pos_tokens]
 print "replaced adjectives..."
 sys.stdout.flush()
 replaced_text = en_nl.untokenize(" ".join(adj_replaced_tokens))#.replace(".",".\n")
+replaced_text = replaced_text.replace("- -","--").replace(" --","--").replace("-- ","--")
+
 
 f = open(sys.argv[1], 'w')
 f.write(replaced_text)
