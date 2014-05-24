@@ -11,7 +11,7 @@ Here is an example of what the Synonym Machine changed in one section of Moby Di
 
  ![Replaced adjectives in Moby Dick](http://i.imgur.com/JnJh8Zm.png =550x)
 
-Read for yourself the output of the synonym machine here:
+Read the full output of the synonym machine here:
 
 * [Moby Dick, by Herman Melville and the Synonym Machine](http://natematias.com/medialab/synonym-machine/moby_dick_synonyms.txt)
 * [Heart of Darkness, by Joseph Conrad and the Synonym Machine](http://natematias.com/medialab/synonym-machine/heart_of_darkness_synonym.txt)
