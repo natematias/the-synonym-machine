@@ -1,7 +1,7 @@
 The Synonym Machine
 ===================
 
-*"He loved to dust his quondam grammars; it somehow mildly reminded him of his mortality."*
+> *"He loved to dust his quondam grammars; it somehow mildly reminded him of his mortality."*
 
 -- Moby Dick, by Herman Melville and the Synonym machine
 
