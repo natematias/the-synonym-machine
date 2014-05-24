@@ -1,7 +1,7 @@
 the-synonym-machine
 ===================
 
-*"He loved to dust his quondam grammars; it somehow mildly reminded him of his mortality." While you take in hand to school others, and to teach them by what name a whale-fish is to be called in our tongue leaving out, through ignorance, the letter H, which almost alone maketh the signification of the word, you deliver that which is not true."*
+*"He loved to dust his quondam grammars; it somehow mildly reminded him of his mortality." *
 
 -- Moby Dick, by Herman Melville and the Synonym machine
 
