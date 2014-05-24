@@ -1,4 +1,4 @@
-the-synonym-machine
+The Synonym Machine
 ===================
 
 *"He loved to dust his quondam grammars; it somehow mildly reminded him of his mortality." *
